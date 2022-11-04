@@ -72,3 +72,10 @@ CREATE TABLE weapon_matirials(
     id_weapons INT,
     id_matirials int
     );
+
+INSERT into weapon_matirials(id_weapons, id_matirials)
+VALUES
+	(1,5),
+    (3,8),
+    (2,9),
+    (1,10)
